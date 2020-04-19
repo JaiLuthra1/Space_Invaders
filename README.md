@@ -21,14 +21,14 @@
 # How to Play the Game?
 
 ## Controls:
-Use <br>
+
 Left, right arrow for moving <br>
 Space for shooting
 
 ## Rules:
 
 - Only one bullet can remain on the screen at any time <br>
-- Once an enemy the spaceship hits, game gets over <br>
+- Once an enemy hits the spaceship, game gets over <br>
 - Once an enemy crosses, you lose a life <br>
 - The enemy increases speed after every 5 points are earnt <br>
-- The enemy will respawn again randomly till you lose <br>
+- The enemy will respawn again randomly
