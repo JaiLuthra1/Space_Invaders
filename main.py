@@ -19,16 +19,16 @@ window = pygame.display.set_mode((width, height))
 
 pygame.display.set_caption('Space Invaders')
 
-playerImg = pygame.image.load('spaceship.png')
+playerImg = pygame.image.load('resources/spaceship.png')
 playerX = (width - 64)/2
 playerY = height - 10 - 64
 playerX_change = 0
 
-enemyImg = pygame.image.load('enemy.png')
+enemyImg = pygame.image.load('resources/enemy.png')
 enemyX = random.randint(0, width - 64)
 enemyY = 0
 
-bulletImg = pygame.image.load('bullet.png')
+bulletImg = pygame.image.load('resources/bullet.png')
 bulletX = 0
 bulletY = playerY - 30
 bulletX_change = 0
